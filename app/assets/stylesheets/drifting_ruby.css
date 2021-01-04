@@ -1,4 +1,9 @@
-
+.field_with_errors {
+  color: red;
+}
+.field_with_errors  input {
+  border: 1px solid red;
+};
 ul.navigation {
   list-style-type: none;
   margin: 0;

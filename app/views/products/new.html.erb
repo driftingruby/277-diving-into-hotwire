@@ -1,0 +1,7 @@
+<%= turbo_frame_tag 'product' do %>
+  <h1>New Product</h1>
+
+  <%= render 'form', product: @product %>
+
+  <%= link_to 'Back', products_path %>
+<% end %>
